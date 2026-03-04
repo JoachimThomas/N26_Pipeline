@@ -1,0 +1,11 @@
+pattern;canonical
+(?i)\baral\b.*;ARAL
+(?i)\bfamila\b.*;FAMILA
+(?i)\brewe\b.*;REWE
+(?i)\bedeka\b.*;EDEKA
+(?i)\baldi\b.*;ALDI
+(?i)\blidl\b.*;LIDL
+(?i)\bpaypal\b.*;PAYPAL
+(?i)\bamazon\b.*;AMAZON
+(?i)\bamzn\b.*;AMAZON
+(?i)\bstadtbäckerei\b.*;STADTBÄCKEREI
