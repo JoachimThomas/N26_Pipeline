@@ -15,10 +15,24 @@ Stand: 2026-03-04
   - Returncodes/Statussignale
   - Leitprinzipien (Idempotenz, Dedup, Logging)
 
-### 2) Ausgabeformat & Dokumentation (Copy-&-Paste first)
-- Zusammenfassungen, Projektdokus, Flowcharts, Statusanker etc.:
-  - **immer** als **ein ununterbrochener Copy-&-Paste Block** liefern.
-  - Keine Unterbrechungen durch zusätzliche Codeblöcke oder Zwischenkommentare.
+### 2) Ausgabeformat & Dokumentation (TTDAR / Copy-&-Paste first)
+- **Positivliste (Darstellung)**
+  - **1 durchgehender Copy-Block** (keine Unterbrechungen, keine Zwischenüberschriften im Chat)
+  - **Markdown-fähig** (`#`, `##`, Listen, Inline-Code)
+  - **Emojis/Symbole erlaubt** ✅⚠️🔧📌📂🚀🧩📝
+  - **Kein** ```code```-Fence (damit Copy nicht zerhackt wird)
+  - **Keine** Chat-Deko drumrum
+- **Icon-Mini-Standard (für deine Dokus)**
+  - ✅ OK / Erfolg
+  - ⚠️ Warnung / Skip
+  - ❌ Fail / Error
+  - 🔧 Technik/Implementierung
+  - 🧭 Ablauf/Flow
+  - 📂 Pfade/Dateien
+  - 🧩 Baustein/Modul
+  - 📝 Notiz/Regel
+  - 🚀 Start/Go-Live
+  - 🧼 Cleanup/Prune/Rotation
 - Wenn möglich, Dokumente direkt als Terminal-Command bereitstellen:
   - bevorzugt `cat > <pfad> <<'EOF' ... EOF`
 
@@ -115,10 +129,24 @@ Date: 2026-03-04
   - Return codes / status signals
   - Principles (idempotency, dedup, logging)
 
-### 2) Output format & documentation (copy-&-paste first)
-- Summaries, project docs, flowcharts, status anchors etc.:
-  - always as **one uninterrupted copy-&-paste block**.
-  - no interruptions by extra code blocks or inline commentary.
+### 2) Output format & documentation (TTDAR / copy-&-paste first)
+- **Positive list (format)**
+  - **One uninterrupted copy-&-paste block** (no interruptions, no extra headings inside the chat)
+  - **Markdown-friendly** (`#`, `##`, lists, inline code)
+  - **Emojis/symbols allowed** ✅⚠️🔧📌📂🚀🧩📝
+  - **No** ```code``` fences (so copy/paste won’t get split)
+  - **No** chat decoration around it
+- **Mini icon standard (for your docs)**
+  - ✅ OK / success
+  - ⚠️ warning / skip
+  - ❌ fail / error
+  - 🔧 tech / implementation
+  - 🧭 flow
+  - 📂 paths / files
+  - 🧩 module / building block
+  - 📝 note / rule
+  - 🚀 start / go-live
+  - 🧼 cleanup / prune / rotation
 - If possible, provide documents as a terminal write command:
   - prefer `cat > <path> <<'EOF' ... EOF`
 
@@ -195,3 +223,4 @@ Date: 2026-03-04
 ### 10) Stay clean
 - No side quests.
 - After completion, no extra ideas unless it’s a clear optimization of the current baseline solution.
+
